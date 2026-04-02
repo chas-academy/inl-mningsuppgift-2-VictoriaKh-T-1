@@ -19,7 +19,7 @@ export function initSearch(people) {
     }
 
     if (found) {
-      htmlResultDisplay.innerHTML = "Namn hittades!";
+      htmlResultDisplay.innerHTML = "Namn hittades: " + name;
     } else {
       htmlResultDisplay.innerHTML = "Namn hittades inte.";
     }
